@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GreenRecycle</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="categorias">Categorías</string>
+    <string name="categorias_text">CATEGORÍAS</string>
+    <string name="estadisticas">Estadísticas</string>
+    <string name="estadisticas_text">ESTADÍSTICAS</string>
+    <string name="consejos">Consejos</string>
+    <string name="consejos_text">CONSEJOS</string>
+</resources>

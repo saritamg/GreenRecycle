@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Logo de Reciclaje -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/logo_recycle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2005"
+        app:layout_constraintWidth_percent="0.3625"
+        android:layout_marginTop="20dp" />
+
+    <!-- Icono de Cerrar Sesión -->
+    <ImageView
+        android:id="@+id/logoutImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/out"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.0677"
+        app:layout_constraintWidth_percent="0.15"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/logout" />
+
+    <!-- Imagen de Categorías -->
+
+    <!-- Texto Categorías -->
+
+    <!-- Imagen de Estadísticas -->
+
+    <!-- Texto Estadísticas -->
+
+    <ImageView
+        android:id="@+id/folderImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="132dp"
+        android:contentDescription="@string/categorias"
+        android:src="@drawable/folder"
+        app:layout_constraintHeight_percent="0.0614"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoImageView"
+        app:layout_constraintWidth_percent="0.2023" />
+
+    <ImageView
+        android:id="@+id/categoriasImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/categorias_text"
+        android:src="@drawable/categorias"
+        app:layout_constraintHeight_percent="0.0588"
+        app:layout_constraintStart_toEndOf="@id/folderImageView"
+        app:layout_constraintTop_toTopOf="@id/folderImageView"
+        app:layout_constraintWidth_percent="0.4386" />
+
+    <!-- Imagen de Consejos -->
+
+    <!-- Texto Consejos -->
+
+    <!-- Imagen de contenedores de reciclaje -->
+
+    <ImageView
+        android:id="@+id/estatisImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/estadisticas"
+        android:src="@drawable/estatis"
+        app:layout_constraintHeight_percent="0.1223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/folderImageView"
+        app:layout_constraintWidth_percent="0.2443" />
+
+    <ImageView
+        android:id="@+id/estadisticaImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/estadisticas_text"
+        android:src="@drawable/estadistica"
+        app:layout_constraintHeight_percent="0.0551"
+        app:layout_constraintStart_toEndOf="@id/estatisImageView"
+        app:layout_constraintTop_toTopOf="@id/estatisImageView"
+        app:layout_constraintWidth_percent="0.4750" />
+
+    <ImageView
+        android:id="@+id/adviceImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/consejos"
+        android:src="@drawable/advice"
+        app:layout_constraintHeight_percent="0.1097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/estatisImageView"
+        app:layout_constraintWidth_percent="0.1989" />
+
+    <ImageView
+        android:id="@+id/consejoImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/consejos_text"
+        android:src="@drawable/consejo"
+        app:layout_constraintHeight_percent="0.0478"
+        app:layout_constraintStart_toEndOf="@id/adviceImageView"
+        app:layout_constraintTop_toTopOf="@id/adviceImageView"
+        app:layout_constraintWidth_percent="0.3716" />
+
+    <ImageView
+        android:id="@+id/iconRecyclingBins"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/icon_recycling_bins"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/consejoImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.25" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
